@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #e8113e;
+  padding-bottom: 30px;
+}
+@font-face {
+  font-family: "Oswald-Regular";
+  src: url(font/Oswald-Regular.ttf);
+  font-size: 15px;
+}
+@font-face {
+  font-family: "Oswald-Bold";
+  src: url(font/Oswald-Regular.ttf);
+}
+.wrapper {
+  max-width: 1280px;
+  margin: auto;
+  background-color: rgb(205, 216, 228);
+}
+.header {
+  background-image: url(img/background.jpg);
+  color: aliceblue;
+  padding: 30px;
+}
+.logoBlock {
+  background: #e8113e;
+  padding: 10px;
+}
+.title {
+  text-align: center;
+  font-family: "Oswald-Bold";
+}
+
+.text {
+  font-family: "Oswald-Regular";
+}
+.all {
+  color: #e8113e;
+  font-size: 19px;
+}
+.imgConteiner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.sku {
+  display: flex;
+  flex-direction: row;
+}
+.skuBox {
+  width: 100%;
+}
+img {
+  max-width: calc(100% / 6);
+}
+.coolCola {
+  background: linear-gradient(
+    to right,
+    rgb(23, 121, 201),
+    red,
+    rgb(23, 121, 201)
+  );
+}
+.zero {
+  background: linear-gradient(to right, black, red, black);
+  background-size: cover;
+}
+.fancy {
+  background: linear-gradient(
+    to right,
+    rgb(0, 47, 255),
+    orange,
+    rgb(0, 47, 255)
+  );
+}
+.street {
+  background: linear-gradient(
+    to right,
+    rgb(255, 255, 0),
+    green,
+    rgb(255, 255, 0)
+  );
+}
+.kvass {
+  background-image: url(img/field.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
