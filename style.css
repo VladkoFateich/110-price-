@@ -124,8 +124,10 @@ body {
 .close {
   color: #aaa;
   float: right;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
+  border-radius: 50%;
+  background-color: #e8113e;
 }
 .close {
   margin-top: -15px;
