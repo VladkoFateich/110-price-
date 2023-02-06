@@ -128,8 +128,6 @@ body {
   font-weight: bold;
   border-radius: 50%;
   background-color: #e8113e;
-}
-.close {
   margin-top: -15px;
   cursor: pointer;
 }
