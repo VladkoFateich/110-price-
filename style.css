@@ -32,7 +32,6 @@ body {
   text-align: center;
   font-family: "Oswald-Bold";
 }
-
 .text {
   font-family: "Oswald-Regular";
 }
@@ -48,6 +47,7 @@ body {
 .sku {
   display: flex;
   flex-direction: row;
+  justify-content: end;
 }
 .skuBox {
   width: 100%;
@@ -114,26 +114,33 @@ body {
   overflow: auto;
   background-color: rgb(159, 203, 240, 0.8);
 }
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+
 .modalContent {
   background-color: rgba(1, 4, 7, 0.8);
-  margin: 50px auto;
+  margin: auto;
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
 }
 .close {
-  width: 21px;
-  text-align: center;
   color: #aaa;
   float: right;
   font-size: 20px;
   font-weight: bold;
   border-radius: 50%;
   background-color: #e8113e;
+
   margin-top: -15px;
   cursor: pointer;
 }
 .modalImg {
+  /* display: none; */
   width: 100%;
   margin: auto;
 }
